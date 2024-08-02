@@ -1,0 +1,7 @@
+node_modues
+.env
+stream.json
+awsConfig.js
+firebaseConfig.js
+invoices
+uploads

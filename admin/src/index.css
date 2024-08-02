@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+@layer base {
+    body {
+        background: #092635;
+        /* background-color: rgb(212, 212, 216);
+    background-image: radial-gradient(at 33% 82%, rgb(245, 208, 254) 0, transparent 60%), radial-gradient(at 91% 81%, rgb(77, 124, 15) 0, transparent 1%), radial-gradient(at 43% 36%, rgb(129, 140, 248) 0, transparent 91%), radial-gradient(at 81% 26%, rgb(192, 132, 252) 0, transparent 74%), radial-gradient(at 55% 42%, rgb(192, 132, 252) 0, transparent 51%), radial-gradient(at 37% 3%, rgb(168, 162, 158) 0, transparent 68%); */
+        /* background-color: rgb(245, 208, 254);
+        background-image: radial-gradient(at 80% 53%, rgb(216, 180, 254) 0, transparent 14%), radial-gradient(at 67% 57%, rgb(52, 211, 153) 0, transparent 30%), radial-gradient(at 7% 54%, rgb(253, 230, 138) 0, transparent 94%), radial-gradient(at 18% 63%, rgb(79, 70, 229) 0, transparent 24%), radial-gradient(at 38% 86%, rgb(22, 78, 99) 0, transparent 94%), radial-gradient(at 48% 96%, rgb(199, 210, 254) 0, transparent 55%); */
+    }
+
+    .navbar-container,
+    .form-bg {
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+.loader {
+    border: 4px solid rgba(247, 240, 240);
+    border-left-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.loader {
+    border: 4px solid rgb(247, 240, 240);
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+}
+
+.loader {
+    border: 4px solid rgba(247, 240, 240);
+    border-left-color: transparent;
+    width: 36px;
+    height: 36px;
+    animation: spin89345 1s linear infinite;
+}
