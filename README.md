@@ -12,7 +12,7 @@ Welcome to the **Streaming Application** repository! This project is built with 
 - [Usage](#-usage)
 - [API Endpoints](#-api-endpoints)
 - [License](#-license)
-- 
+
 ![alt text](./admin/public/1.png)
 ![alt text](./admin/public/3.png)
 ![alt text](./admin/public/stream.drawio.png)
