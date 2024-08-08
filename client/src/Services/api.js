@@ -24,7 +24,8 @@ export const authenticateLogin = async (data) => {
 
 export const GetProfile = async (userId) => {
     try {
-        const response = await axios.get(`${URL}/user/get/${userId}`);
+        const config = { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } };
+        const response = await axios.get(`${URL}/user/get/${userId}`,config);
         return response;
     } catch (error) {
         console.log('Error while calling authenticateGetProfile API ', error);
@@ -33,9 +34,11 @@ export const GetProfile = async (userId) => {
 
 export const updateProfile = async (userId, updatedProfile) => {
     try {
+        
         const response = await axios.put(`${URL}/user/update/${userId}`, updatedProfile, {
             headers: {
-                'Content-Type': 'multipart/form-data'
+                'Content-Type': 'multipart/form-data',
+                'Authorization': `Bearer ${localStorage.getItem('token')}`
             }
         });
         return response;
@@ -63,7 +66,8 @@ export const getVideoById = async(id) => {
 }
 export const getSubscriptions = async(userId) => {
     try {
-        const response = await axios.get(`${URL}/subscription/get/${userId}`);
+        const config = { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } };
+        const response = await axios.get(`${URL}/subscription/get/${userId}`,config);
         return response;
     } catch (error) {
         console.log('Error while calling getSubscriptions API ', error);
@@ -72,7 +76,8 @@ export const getSubscriptions = async(userId) => {
 
 export const buySubscription = async(data) => {
     try {
-        const response = await axios.post(`${URL}/subscription/buy`,data);
+        const config = { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } };
+        const response = await axios.post(`${URL}/subscription/buy`,data,config);
         return response;
     } catch (error) {
         console.log('Error while calling buySubscription API ', error);
