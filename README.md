@@ -6,12 +6,12 @@
 Welcome to the **Streaming Application** repository! This project is built with the MERN stack and leverages AWS services for cloud storage and content delivery. It offers a comprehensive solution for video streaming, user management, subscriptions, and more.
 
 ## 📖 Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [License](#license)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [API Endpoints](#-api-endpoints)
+- [License](#-license)
 - 
 ![alt text](./admin/public/1.png)
 ![alt text](./admin/public/3.png)
