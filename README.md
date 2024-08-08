@@ -13,9 +13,9 @@ Welcome to the **Streaming Application** repository! This project is built with 
 - [API Endpoints](#api-endpoints)
 - [License](#license)
 - 
-![alt text](1.png)
-![alt text](3.png)
-![alt text](stream.drawio.png)
+![alt text](./admin/public/1.png)
+![alt text](./admin/public/3.png)
+![alt text](./admin/public/stream.drawio.png)
 
 ## 🌟 Features
 
