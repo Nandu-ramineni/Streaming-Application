@@ -1,7 +1,9 @@
 import axios from 'axios';
 
-const URL  = 'http://localhost:7000';
-export const API_URL  = 'http://localhost:7000';
+// const URL  = 'http://localhost:7000';
+const URL  = 'https://streaming-application-yfks.onrender.com';
+// export const API_URL  = 'http://localhost:7000';
+export const API_URL  = 'https://streaming-application-yfks.onrender.com';
 
 export const authenticateSignup = async (data) => {
     try {

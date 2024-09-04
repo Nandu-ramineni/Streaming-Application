@@ -1,7 +1,8 @@
 import * as actionTypes from '../Constants/subscription'
 import axios from 'axios';
 
-const URL = 'http://localhost:7000';
+// const URL = 'http://localhost:7000';
+const URL = 'https://streaming-application-yfks.onrender.com';
 
 export const getSubscriptions = (userId) => async (dispatch) => {
     try {
