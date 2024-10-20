@@ -33,7 +33,7 @@ const PASSWORD = process.env.DB_PASSWORD;
 const URL = process.env.DB_URL || `mongodb+srv://${USERNAME}:${PASSWORD}@stream.4clxkvo.mongodb.net/?retryWrites=true&w=majority&appName=Stream`;
 dbConnection(URL);
 app.get('/', (req, res) => {
-    res.send('Server is ready');
+    res.send('Hello from Enjoyio Server');
 });
 
 app.listen(PORT,'0.0.0.0', () => {
